@@ -1,0 +1,19 @@
+.navigation{
+    background: rgb(255,0,0);
+    background: linear-gradient(150deg, rgba(255,0,0,1) 0%, rgba(150,0,0,1) 33%, rgba(186,0,0,1) 100%) fixed;
+    display:none;
+    nav{
+        font-family: "Bangers", system-ui;
+        li{
+            text-align: center;
+            list-style: none; 
+            margin-bottom: 25px;
+            a{
+                color:white;
+                text-decoration:none;
+                font-size:35px;
+               
+            }
+        }
+    }
+}

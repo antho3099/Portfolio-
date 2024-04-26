@@ -1,0 +1,24 @@
+@use 'header.scss';
+@use 'touch.scss';
+@use 'navigation.scss';
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: rgb(0,28,89);
+    background: linear-gradient(150deg, rgba(0,28,89,1) 0%, rgba(2,51,231,1) 46%, rgba(0,14,69,1) 75%, rgba(255,0,0,1) 89%, rgba(0,31,194,1) 100%) fixed; 
+}
+img{
+    width:250px;
+    margin-left:85px;
+}
+p{
+    font-family: "Viga", sans-serif;
+    text-align:center;
+    font-size:23px;
+    color:white;
+    margin-left:2px;
+    margin-right:2px;
+}
