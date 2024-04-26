@@ -1,14 +1,17 @@
 @use 'header.scss';
 @use 'touch.scss';
 @use 'navigation.scss';
+@use 'presentation.scss';
+@use 'job.scss';
+ @use 'competences.scss';
 
 *{
     margin: 0;
     padding: 0;
 }
 body{
-    background: rgb(0,28,89);
-    background: linear-gradient(150deg, rgba(0,28,89,1) 0%, rgba(2,51,231,1) 46%, rgba(0,14,69,1) 75%, rgba(255,0,0,1) 89%, rgba(0,31,194,1) 100%) fixed; 
+    background: rgb(0,17,80);
+    background: linear-gradient(153deg, rgba(0,17,80,1) 6%, rgba(2,0,55,1) 26%, rgba(0,18,73,1) 38%, rgba(4,14,122,1) 52%, rgba(0,6,66,1) 63%, rgba(0,19,107,1) 85%, rgba(227,0,0,1) 90%, rgba(0,2,50,1) 97%) fixed; 
 }
 img{
     width:250px;
@@ -21,4 +24,13 @@ p{
     color:white;
     margin-left:2px;
     margin-right:2px;
+}
+h2{
+    font-family: "Bangers", system-ui;
+        text-align:center;
+        margin-top:25px;
+        font-size:55px;
+        color:red;
+        -webkit-text-stroke-width: 0.9px;
+        -webkit-text-stroke-color: whitesmoke;
 }
