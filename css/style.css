@@ -32,6 +32,7 @@ header h2 {
   background: linear-gradient(150deg, rgb(255, 0, 0) 0%, rgb(150, 0, 0) 33%, rgb(186, 0, 0) 100%) fixed;
   display: none;
   width: 100%;
+  position: relative;
 }
 .navigation nav {
   font-family: "Bangers", system-ui;
@@ -88,6 +89,7 @@ header h2 {
   font-family: "Viga", sans-serif;
   font-size: 20px;
   margin-bottom: 15px;
+  text-align: start;
 }
 .job article h4 {
   font-family: "Viga", sans-serif;
@@ -113,11 +115,38 @@ header h2 {
   flex-direction: column;
   align-items: center;
   color: white;
-  font-size: 35px;
+  font-size: 25px;
 }
 .reseau li img {
   width: 25%;
-  margin-right: 21%;
+  display: block;
+  margin: auto;
+}
+
+.atouts {
+  font-family: "Viga", sans-serif;
+  color: white;
+  font-size: 25px;
+  text-align: center;
+}
+
+.langues {
+  font-family: "Viga", sans-serif;
+  color: white;
+  font-size: 25px;
+  text-align: center;
+}
+
+.projets h2 {
+  font-size: 40px;
+  color: whitesmoke;
+  -webkit-text-stroke-color: red;
+  -webkit-text-stroke-width: 0.5px;
+}
+.projets p {
+  color: white;
+  font-size: 20px;
+  text-align: center;
 }
 
 * {
@@ -132,7 +161,8 @@ body {
 
 img {
   width: 250px;
-  margin-left: 85px;
+  display: block;
+  margin: auto;
 }
 
 p {

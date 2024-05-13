@@ -17,10 +17,23 @@
         flex-direction: column;
         align-items: center;
         color:white;
-        font-size:35px;
+        font-size:25px;
         img{
             width:25%;
-            margin-right:21%;
+            display:block;
+            margin:auto;
         }
     }
+}
+.atouts{
+    font-family: "Viga", sans-serif;
+    color:white;
+    font-size:25px;
+    text-align: center;
+}
+.langues{
+    font-family: "Viga", sans-serif;
+    color:white;
+    font-size:25px;
+    text-align: center;
 }

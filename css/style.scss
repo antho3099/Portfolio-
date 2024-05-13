@@ -3,7 +3,10 @@
 @use 'navigation.scss';
 @use 'presentation.scss';
 @use 'job.scss';
- @use 'competences.scss';
+@use 'competences.scss';
+@use 'projets.scss';
+
+
 
 *{
     margin: 0;
@@ -15,7 +18,8 @@ body{
 }
 img{
     width:250px;
-    margin-left:85px;
+    display:block;
+    margin:auto;
 }
 p{
     font-family: "Viga", sans-serif;

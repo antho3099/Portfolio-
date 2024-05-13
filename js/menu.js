@@ -3,7 +3,7 @@ let menu = document.querySelector(".navigation");
 
 function explore(){
     menu.classList.toggle("display");
-    console.log("je suis parvenu");
+    console.log("Bienvenue dans le menu");
 }
 
 boutton.addEventListener('click', explore);
