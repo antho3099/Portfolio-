@@ -17,6 +17,14 @@ header h2 {
   -webkit-text-stroke-color: whitesmoke;
 }
 
+@media screen and (min-width: 772px) {
+  header h1 {
+    font-size: 70px;
+  }
+  header h2 {
+    font-size: 55px;
+  }
+}
 .touch {
   margin-top: 25px;
   background: rgb(255, 0, 0);
@@ -24,15 +32,31 @@ header h2 {
 }
 .touch img {
   width: 60px;
-  margin-left: 185px;
+  display: block;
+  margin: auto;
 }
 
+@media screen and (min-width: 772px) {
+  .touch {
+    padding: 10px;
+  }
+  .touch img {
+    width: 80px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .touch img {
+    display: none;
+  }
+}
 .navigation {
   background: rgb(255, 0, 0);
   background: linear-gradient(150deg, rgb(255, 0, 0) 0%, rgb(150, 0, 0) 33%, rgb(186, 0, 0) 100%) fixed;
   display: none;
   width: 100%;
   position: relative;
+  padding-top: 5px;
+  padding-bottom: 2px;
 }
 .navigation nav {
   font-family: "Bangers", system-ui;
@@ -52,6 +76,18 @@ header h2 {
   display: block;
 }
 
+@media screen and (min-width: 992px) {
+  .navigation {
+    display: block;
+  }
+  .navigation nav ul {
+    display: flex;
+    justify-content: space-around;
+  }
+  .navigation nav a:hover {
+    background-color: blue;
+  }
+}
 .presentation p {
   text-align: center;
   font-size: 20px;
@@ -66,6 +102,21 @@ header h2 {
   margin-top: 5px;
 }
 
+@media screen and (min-width: 772px) {
+  .presentation p {
+    font-size: 28px;
+  }
+  .presentation ul {
+    font-size: 40px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .presentation p {
+    text-align: start;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+}
 .job {
   margin-left: 5px;
   margin-right: 5px;
@@ -98,6 +149,20 @@ header h2 {
   margin-bottom: 15px;
 }
 
+@media screen and (min-width: 772px) {
+  .job article h3 {
+    font-size: 30px;
+  }
+  .job article h5 {
+    font-size: 25px;
+  }
+  .job article h4 {
+    font-size: 23px;
+  }
+  .job article p {
+    font-size: 22px;
+  }
+}
 .competences ul {
   font-family: "Viga", sans-serif;
   font-size: 21px;
@@ -137,6 +202,27 @@ header h2 {
   text-align: center;
 }
 
+@media screen and (min-width: 772px) {
+  .competences ul {
+    font-size: 28px;
+  }
+  .atouts ul {
+    font-size: 30px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .reseau {
+    margin-left: 100px;
+  }
+  .reseau ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .reseau ul li img {
+    width: 150px;
+  }
+}
 .projets h2 {
   font-size: 40px;
   color: whitesmoke;
@@ -149,6 +235,69 @@ header h2 {
   text-align: center;
 }
 
+@media screen and (min-width: 772px) {
+  .projets h2 {
+    font-size: 40px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .projets p {
+    text-align: center;
+  }
+}
+.diapo {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  overflow-y: scroll;
+}
+.diapo ul {
+  display: flex;
+  gap: 10px;
+}
+.diapo ul li {
+  list-style: none;
+}
+.diapo ul li img {
+  width: 250px;
+}
+
+@media screen and (min-width: 772px) {
+  .diapo {
+    overflow-y: scroll;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .diapo {
+    overflow-y: scroll;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .diapo ul li {
+    list-style: none;
+  }
+  .diapo ul li img {
+    width: 300px;
+  }
+}
+footer {
+  background: rgb(255, 0, 0);
+  background: linear-gradient(150deg, rgb(255, 0, 0) 0%, rgb(150, 0, 0) 33%, rgb(186, 0, 0) 100%) fixed;
+  padding: 5px;
+  margin-top: 10px;
+}
+
+@media screen and (min-width: 772px) {
+  footer {
+    margin-top: 35px;
+  }
+}
+@media screen and (min-width: 992px) {
+  footer {
+    margin-top: 20px;
+  }
+}
 * {
   margin: 0;
   padding: 0;
@@ -182,6 +331,23 @@ h2 {
   color: red;
   -webkit-text-stroke-width: 0.9px;
   -webkit-text-stroke-color: whitesmoke;
+}
+
+@media screen and (min-width: 772px) {
+  img {
+    width: 290px;
+  }
+  h2 {
+    font-size: 50px;
+  }
+  p {
+    font-size: 28px;
+  }
+}
+@media screen and (min-width: 992px) {
+  h2 {
+    font-size: 60px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

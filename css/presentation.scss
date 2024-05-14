@@ -13,3 +13,22 @@
         }
     }
 }
+@media screen and (min-width:772px){
+   .presentation{
+    p{
+        font-size:28px;
+    }
+    ul{
+        font-size:40px;
+    }
+   }
+}
+@media screen and (min-width:992px){
+    .presentation{
+        p{
+            text-align:start;
+            margin-left:5px;
+            margin-right:5px;
+        }
+    }
+}

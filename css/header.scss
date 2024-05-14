@@ -18,3 +18,13 @@ header{
         -webkit-text-stroke-color: whitesmoke;
     }
 }
+@media screen and (min-width:772px){
+    header{
+        h1{
+            font-size:70px;
+        }
+        h2{
+            font-size:55px;
+        }
+    }
+}

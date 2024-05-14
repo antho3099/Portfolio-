@@ -4,6 +4,8 @@
     display:none;
     width:100%;
     position: relative;
+    padding-top:5px;
+    padding-bottom: 2px;
     nav{
         font-family: "Bangers", system-ui;
         li{
@@ -20,4 +22,22 @@
 }
 .display{
     display:block;
+}
+@media screen and (min-width:772px){
+    
+}
+@media screen and (min-width:992px){
+    .navigation{
+        display:block;
+        nav{
+            ul{
+                display:flex;
+                justify-content: space-around;
+            }
+            a:hover{
+                background-color:blue;
+                
+            }
+        }
+    }
 }

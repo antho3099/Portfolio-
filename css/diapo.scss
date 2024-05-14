@@ -1,0 +1,37 @@
+.diapo{
+    margin-top:5px;
+    margin-bottom: 5px;
+    overflow-y: scroll;
+    ul{
+        display:flex;
+        gap:10px;
+        li{
+            list-style:none;
+            img{
+                width:250px;
+            }
+        }
+    }
+}
+@media screen and (min-width:772px){
+    .diapo{
+        overflow-y:scroll;
+        margin-top:5px;
+        margin-bottom: 5px;
+    }
+}
+@media screen and (min-width:992px){
+    .diapo{
+        overflow-y:scroll;
+        margin-top:5px;
+        margin-bottom: 5px;
+        ul{
+            li{
+                list-style:none;
+                img{
+                    width:300px;
+                }
+            }
+        }
+    }
+}

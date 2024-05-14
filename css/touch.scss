@@ -4,6 +4,22 @@
     background: linear-gradient(150deg, rgba(255,0,0,1) 0%, rgba(150,0,0,1) 33%, rgba(186,0,0,1) 100%) fixed; 
     img{
         width:60px;
-        margin-left:185px;
+        display:block;
+        margin:auto;
+    }
+}
+@media screen and (min-width:772px){
+    .touch{
+        padding:10px;
+        img{
+            width:80px;
+        }
+    }
+}
+@media screen and (min-width:992px){
+    .touch{
+        img{
+            display:none;
+        }
     }
 }
