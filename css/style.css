@@ -181,19 +181,20 @@ header h2 {
   color: white;
 }
 
-.reseau li {
-  font-family: "Viga", sans-serif;
+.reseau ul {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  font-family: "Viga", sans-serif;
   text-align: center;
-  flex-direction: column;
-  align-items: center;
   color: white;
-  font-size: 25px;
 }
-.reseau li img {
-  width: 25%;
-  display: block;
-  margin: auto;
+.reseau ul li {
+  list-style: none;
+  padding-top: 20px;
+}
+.reseau ul li img {
+  width: 95px;
 }
 
 .atouts {
@@ -217,18 +218,27 @@ header h2 {
   .atouts ul {
     font-size: 30px;
   }
+  .reseau ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-family: "Viga", sans-serif;
+  }
+  .reseau ul li {
+    padding-top: 20px;
+  }
+  .reseau ul li img {
+    width: 130px;
+  }
 }
 @media screen and (min-width: 992px) {
-  .reseau {
-    margin-left: 100px;
-  }
   .reseau ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
   }
   .reseau ul li img {
-    width: 150px;
+    width: 100px;
   }
 }
 .projets h2 {

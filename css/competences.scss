@@ -10,18 +10,19 @@
     }
 }
 .reseau{
-    li{
+    ul{
+        display:flex; 
+        flex-wrap: wrap;
+        justify-content: space-around;
         font-family: "Viga", sans-serif;
-        display:flex;
-        text-align: center;
-        flex-direction: column;
-        align-items: center;
+        text-align:center;
         color:white;
-        font-size:25px;
-        img{
-            width:25%;
-            display:block;
-            margin:auto;
+        li{
+            list-style: none;
+            padding-top:20px;
+            img{
+                width:95px;
+            }
         }
     }
 }
@@ -48,18 +49,30 @@
             font-size:30px;
         }
     }
+    .reseau{
+        ul{
+            display:flex; 
+            flex-wrap: wrap;
+            justify-content: space-around;
+            font-family: "Viga", sans-serif;
+            li{
+                padding-top:20px;
+                img{
+                    width:130px;
+                }
+            }
+        }
+    }
 }
 @media screen and (min-width:992px){
     .reseau{
-        margin-left:100px;
-        
         ul{
             display:flex; 
             flex-wrap: wrap;
             justify-content: space-around;
             li{
                 img{
-                    width:150px;
+                    width:100px;
                 }
             }
         }
