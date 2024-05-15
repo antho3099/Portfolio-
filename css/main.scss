@@ -1,0 +1,39 @@
+.swipe{
+    position:absolute;
+    .left{
+        width:55px;
+        top:200px;
+        position:relative;
+        left:5px;
+    }
+    .right{
+        position: relative;
+        width:55px;
+        top:160px;
+        left:370px;
+    }
+}
+@media screen and (min-width:772px){
+    .swipe{
+        position:absolute;
+        display:flex;
+    
+        .left{
+            width:55px;
+            top:200px;
+            position:relative;
+            left:5px;
+        }
+        .right{
+            position: relative;
+            width:55px;
+            top:200px;
+            left:695px;
+        }
+    }
+}
+@media screen and (min-width:992px){
+    .swipe{
+        display:none;
+    }
+}

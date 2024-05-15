@@ -270,9 +270,7 @@ header h2 {
 }
 @media screen and (min-width: 992px) {
   .diapo {
-    overflow-y: scroll;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-left: 100px;
   }
   .diapo ul li {
     list-style: none;
@@ -296,6 +294,45 @@ footer {
 @media screen and (min-width: 992px) {
   footer {
     margin-top: 20px;
+  }
+}
+.swipe {
+  position: absolute;
+}
+.swipe .left {
+  width: 55px;
+  top: 200px;
+  position: relative;
+  left: 5px;
+}
+.swipe .right {
+  position: relative;
+  width: 55px;
+  top: 160px;
+  left: 370px;
+}
+
+@media screen and (min-width: 772px) {
+  .swipe {
+    position: absolute;
+    display: flex;
+  }
+  .swipe .left {
+    width: 55px;
+    top: 200px;
+    position: relative;
+    left: 5px;
+  }
+  .swipe .right {
+    position: relative;
+    width: 55px;
+    top: 200px;
+    left: 695px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .swipe {
+    display: none;
   }
 }
 * {
