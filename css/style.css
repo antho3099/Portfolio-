@@ -270,13 +270,13 @@ header h2 {
 }
 @media screen and (min-width: 992px) {
   .diapo {
-    margin-left: 100px;
+    margin-left: 200px;
   }
   .diapo ul li {
     list-style: none;
   }
   .diapo ul li img {
-    width: 300px;
+    width: 250px;
   }
 }
 footer {
