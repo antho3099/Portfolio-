@@ -309,7 +309,7 @@ footer {
 }
 .swipe .left {
   width: 155px;
-  top: 200px;
+  top: 400px;
   position: absolute;
   left: 5px;
   animation: mouvementdoigt 3s infinite;
@@ -317,9 +317,18 @@ footer {
 @keyframes mouvementdoigt {
   0% {
     left: 0px;
+    transform: none;
+  }
+  50% {
+    left: 250px;
+    transform: none;
+  }
+  80% {
+    left: 250px;
   }
   100% {
-    left: 250px;
+    right: 0px;
+    transform: scaleX(-1);
   }
 }
 .swipe .right {
