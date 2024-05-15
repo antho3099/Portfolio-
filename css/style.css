@@ -317,13 +317,9 @@ footer {
 @keyframes mouvementdoigt {
   0% {
     left: 0px;
-    right: 0px;
-  }
-  50% {
-    left: 270px;
   }
   100% {
-    left: 270px;
+    left: 250px;
   }
 }
 .swipe .right {
