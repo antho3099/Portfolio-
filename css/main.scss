@@ -1,10 +1,24 @@
 .swipe{
     position:absolute;
     .left{
-        width:55px;
+        width:155px;
         top:200px;
-        position:relative;
+        position:absolute;
         left:5px;
+        animation: mouvementdoigt 3s infinite ;
+
+        @keyframes mouvementdoigt{
+           0%{
+            left:0px;
+            right:0px;
+           }
+           50%{
+            left:270px;
+           }
+           100%{
+            left:270px;
+           }
+        }
     }
     .right{
         position: relative;
