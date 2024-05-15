@@ -267,6 +267,7 @@ header h2 {
   margin-top: 5px;
   margin-bottom: 5px;
   overflow-y: scroll;
+  scrollbar-width: none;
 }
 .diapo ul {
   display: flex;
@@ -281,9 +282,13 @@ header h2 {
 
 @media screen and (min-width: 772px) {
   .diapo {
-    overflow-y: scroll;
     margin-top: 5px;
     margin-bottom: 5px;
+    margin-left: 5px;
+    overflow-y: none;
+  }
+  .diapo ul li img {
+    width: 190px;
   }
 }
 @media screen and (min-width: 992px) {
@@ -351,7 +356,7 @@ footer {
 @media screen and (min-width: 772px) {
   .swipe {
     position: absolute;
-    display: flex;
+    display: none;
   }
   .swipe .left {
     width: 55px;
