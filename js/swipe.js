@@ -1,5 +1,5 @@
-let swipe = document.querySelectorAll("#projets .swipe");
-let diapo = document.querySelectorAll("#projets .diapo");
+let swipe = document.querySelectorAll(".swipe");
+let diapo = document.querySelectorAll(".diapo");
 diapo.addEventListener('scroll', function(){
     if("scroll"){
        swipe.style.display ="none"; 
