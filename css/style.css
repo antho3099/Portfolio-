@@ -18,11 +18,30 @@ header .menu {
 }
 
 @media screen and (min-width: 772px) {
-  header h1 {
-    font-size: 70px;
+  header img {
+    width: 60px;
+    display: block;
+    margin: auto;
   }
-  header h2 {
-    font-size: 55px;
+  header .menu {
+    width: 50px;
+    position: absolute;
+    left: 700px;
+    top: 15px;
+  }
+}
+@media screen and (min-width: 992px) {
+  header {
+    margin-top: 5px;
+  }
+  header img {
+    width: 60px;
+    display: block;
+    margin: auto;
+    display: none;
+  }
+  header .menu {
+    position: relative;
   }
 }
 .navigation {
@@ -434,10 +453,38 @@ h2 {
   p {
     font-size: 28px;
   }
+  #contact {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  #contact img {
+    width: 135px;
+    margin-left: 2px;
+  }
+  #contact p {
+    margin-left: 5px;
+    margin-right: 20px;
+    text-align: justify;
+    font-size: 18px;
+  }
 }
 @media screen and (min-width: 992px) {
   h2 {
     font-size: 60px;
+  }
+  #contact {
+    display: flex;
+    margin-top: 20px;
+  }
+  #contact img {
+    width: 150px;
+    margin-left: 25px;
+  }
+  #contact p {
+    text-align: start;
+    font-size: 18px;
+    margin-right: 200px;
   }
 }
 

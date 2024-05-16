@@ -75,9 +75,37 @@ h2{
     p{
         font-size:28px;
     }
+    #contact{
+        display:flex;
+        justify-content: space-between;
+        margin-top:20px;
+        img{
+            width:135px;
+            margin-left:2px;;
+        }
+        p{
+            margin-left:5px;
+            margin-right:20px;
+            text-align:justify;
+            font-size:18px;
+        }
+    }
 }
 @media screen and (min-width:992px){
     h2{
         font-size:60px;
+    }
+    #contact{
+        display:flex;
+        margin-top:20px;
+        img{
+            width:150px;
+            margin-left:25px;
+        }
+        p{
+            text-align:start;
+            font-size:18px;
+            margin-right:200px;
+        }
     }
 }
