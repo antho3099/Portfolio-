@@ -118,7 +118,7 @@ header .menu {
   margin-bottom: 40px;
 }
 #competences ul {
-  font-family: "Viga", sans-serif;
+  font-family: "Cabin", sans-serif;
   font-size: 21px;
   text-align: center;
 }
@@ -131,7 +131,7 @@ header .menu {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  font-family: "Viga", sans-serif;
+  font-family: "Cabin", sans-serif;
   text-align: center;
   color: white;
 }
@@ -144,14 +144,14 @@ header .menu {
 }
 
 .atouts {
-  font-family: "Viga", sans-serif;
+  font-family: "Cabin", sans-serif;
   color: white;
   font-size: 25px;
   text-align: center;
 }
 
 .langues {
-  font-family: "Viga", sans-serif;
+  font-family: "Cabin", sans-serif;
   color: white;
   font-size: 25px;
   text-align: center;
@@ -169,7 +169,7 @@ header .menu {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    font-family: "Viga", sans-serif;
+    font-family: "Cabin", sans-serif;
   }
   .reseau ul li {
     padding-top: 20px;
@@ -338,31 +338,31 @@ footer {
   border-bottom: 1px solid red;
 }
 #profession .job article h3 {
-  font-family: "Viga", sans-serif;
+  font-family: "Cabin", sans-serif;
   font-size: 19px;
   color: white;
   text-align: center;
 }
 #profession .job article h5 {
-  font-family: "Viga", sans-serif;
+  font-family: "Cabin", sans-serif;
   font-size: 18px;
   color: white;
   text-align: center;
 }
 #profession .job article p {
-  font-family: "Viga", sans-serif;
+  font-family: "Cabin", sans-serif;
   font-size: 18px;
   margin-bottom: 15px;
   text-align: start;
 }
 #profession .job article h4 {
-  font-family: "Viga", sans-serif;
+  font-family: "Cabin", sans-serif;
   font-size: 16px;
   color: aqua;
   margin-bottom: 15px;
 }
 #profession .job article h6 {
-  font-family: "Viga", sans-serif;
+  font-family: "Cabin", sans-serif;
   font-size: 18px;
   color: dodgerblue;
   text-align: center;
@@ -409,7 +409,7 @@ img {
 }
 
 p {
-  font-family: "Viga", sans-serif;
+  font-family: "Cabin", sans-serif;
   text-align: center;
   font-size: 23px;
   color: white;
