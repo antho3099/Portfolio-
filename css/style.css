@@ -134,13 +134,14 @@ header .menu {
   font-family: "Cabin", sans-serif;
   text-align: center;
   color: white;
+  gap: 5px;
 }
 .reseau ul li {
   list-style: none;
   padding-top: 20px;
 }
 .reseau ul li img {
-  width: 95px;
+  width: 25px;
 }
 
 .atouts {
