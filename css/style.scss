@@ -1,13 +1,13 @@
 @use 'header.scss';
-@use 'touch.scss';
 @use 'navigation.scss';
 @use 'presentation.scss';
-@use 'job.scss';
 @use 'competences.scss';
 @use 'projets.scss';
 @use 'diapo.scss';
 @use 'footer.scss';
 @use 'main.scss';
+@use 'profession.scss';
+
 
 
 
@@ -15,9 +15,18 @@
     margin: 0;
     padding: 0;
 }
+h1{
+    font-family: "Bangers", system-ui;
+        text-align:center;
+        margin-top:25px;
+        font-size:60px;
+        color:red;
+        -webkit-text-stroke-width: 0.9px;
+        -webkit-text-stroke-color: whitesmoke;
+}
 body{
     background: rgb(0,17,80);
-    background: linear-gradient(153deg, rgba(0,17,80,1) 6%, rgba(2,0,55,1) 26%, rgba(0,18,73,1) 38%, rgba(4,14,122,1) 52%, rgba(0,6,66,1) 63%, rgba(0,19,107,1) 85%, rgba(227,0,0,1) 90%, rgba(0,2,50,1) 97%) fixed; 
+    background: linear-gradient(153deg, rgba(0,17,80,1) 6%, rgba(2,0,55,1) 26%, rgba(0,18,73,1) 38%, rgba(4,14,122,1) 52%, rgba(0,6,66,1) 63%, rgba(0,19,107,1) 85%, rgba(227,0,0,1) 90%, rgba(0,2,50,1) 97%) no-repeat; 
 }
 img{
     width:250px;
@@ -35,11 +44,26 @@ p{
 h2{
     font-family: "Bangers", system-ui;
         text-align:center;
-        margin-top:25px;
-        font-size:55px;
+        margin-top:5px;
+        font-size:45px;
         color:red;
         -webkit-text-stroke-width: 0.9px;
         -webkit-text-stroke-color: whitesmoke;
+}
+#contact{
+    display:flex;
+    justify-content: space-between;
+    margin-top:20px;
+    img{
+        width:135px;
+        margin-left:2px;;
+    }
+    p{
+        margin-left:5px;
+        margin-right:20px;
+        text-align:justify;
+        font-size:18px;
+    }
 }
 @media screen and (min-width:772px){
     img{

@@ -2,6 +2,10 @@
     margin-top:5px;
     margin-bottom: 5px;
     overflow-y: scroll;
+    ::-webkit-scrollbar{
+        display:none;
+    }
+    -ms-overflow-style:none;
     scrollbar-width: none;
     ul{
         display:flex;

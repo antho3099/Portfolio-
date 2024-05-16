@@ -1,4 +1,4 @@
-let boutton = document.querySelector(".hamburger");
+let boutton = document.querySelector(".menu");
 let menu = document.querySelector(".navigation");
 
 function explore(){
