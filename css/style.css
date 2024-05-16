@@ -95,12 +95,15 @@ header .menu {
     margin-right: 5px;
   }
 }
-.competences ul {
+#competences {
+  margin-bottom: 40px;
+}
+#competences ul {
   font-family: "Viga", sans-serif;
   font-size: 21px;
   text-align: center;
 }
-.competences ul li {
+#competences ul li {
   list-style: none;
   color: white;
 }
@@ -137,7 +140,7 @@ header .menu {
 }
 
 @media screen and (min-width: 772px) {
-  .competences ul {
+  #competences ul {
     font-size: 28px;
   }
   .atouts ul {
