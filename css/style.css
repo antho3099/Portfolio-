@@ -94,7 +94,7 @@ header .menu {
 }
 #presentation p {
   margin-left: 5px;
-  margin-right: 5px;
+  margin-right: 10px;
   text-align: justify;
   font-size: 18px;
 }
@@ -141,7 +141,7 @@ header .menu {
   padding-top: 20px;
 }
 .reseau ul li img {
-  width: 25px;
+  width: 95px;
 }
 
 .atouts {
@@ -176,7 +176,7 @@ header .menu {
     padding-top: 20px;
   }
   .reseau ul li img {
-    width: 130px;
+    width: 140px;
   }
 }
 @media screen and (min-width: 992px) {
