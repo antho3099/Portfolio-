@@ -7,8 +7,9 @@
 @use 'footer.scss';
 @use 'main.scss';
 @use 'profession.scss';
-
-
+@use 'menu.scss';
+@use 'job.scss';
+@use 'bienvenue.scss';
 
 
 *{
@@ -43,12 +44,18 @@ p{
 }
 h2{
     font-family: "Bangers", system-ui;
-        text-align:center;
-        margin-top:5px;
-        font-size:45px;
-        color:red;
-        -webkit-text-stroke-width: 0.9px;
-        -webkit-text-stroke-color: whitesmoke;
+    margin-top:25px;
+    background: rgb(255,0,0);
+    background: linear-gradient(150deg, rgba(255,0,0,1) 0%, rgba(150,0,0,1) 33%, rgba(186,0,0,1) 100%) fixed; 
+    text-align:center;
+    font-size:40px;
+    color:white;
+}
+.menu{
+    margin-top:25px;
+    background: rgb(255,0,0);
+    background: linear-gradient(150deg, rgba(255,0,0,1) 0%, rgba(150,0,0,1) 33%, rgba(186,0,0,1) 100%) fixed; 
+    position:relative;
 }
 #contact{
     display:flex;
