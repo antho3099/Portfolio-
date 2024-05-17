@@ -38,10 +38,14 @@ header h2 {
 @media screen and (min-width: 992px) {
   .navigation {
     display: block;
+    padding-bottom: 0px;
   }
   .navigation nav ul {
     display: flex;
     justify-content: space-around;
+  }
+  .navigation nav ul li {
+    padding-bottom: 0px;
   }
   .navigation nav a:hover {
     background-color: blue;
@@ -57,6 +61,7 @@ header h2 {
   margin-left: 2px;
 }
 #presentation p {
+  margin-top: 40px;
   margin-left: 5px;
   margin-right: 10px;
   text-align: justify;
@@ -91,7 +96,7 @@ header h2 {
   color: white;
 }
 
-.reseau ul {
+#reseau ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -100,11 +105,11 @@ header h2 {
   color: white;
   gap: 5px;
 }
-.reseau ul li {
+#reseau ul li {
   list-style: none;
   padding-top: 20px;
 }
-.reseau ul li img {
+#reseau ul li img {
   width: 95px;
 }
 
@@ -130,27 +135,24 @@ header h2 {
   .atouts ul {
     font-size: 30px;
   }
-  .reseau ul {
+  #reseau ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     font-family: "Cabin", sans-serif;
   }
-  .reseau ul li {
+  #reseau ul li {
     padding-top: 20px;
-  }
-  .reseau ul li img {
-    width: 140px;
   }
 }
 @media screen and (min-width: 992px) {
-  .reseau ul {
+  #reseau ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
   }
-  .reseau ul li img {
-    width: 100px;
+  #reseau ul li img {
+    width: 130px;
   }
 }
 #projets h2 {
@@ -167,12 +169,12 @@ header h2 {
 }
 
 @media screen and (min-width: 772px) {
-  .projets h2 {
+  #projets h2 {
     font-size: 40px;
   }
 }
 @media screen and (min-width: 992px) {
-  .projets p {
+  #projets p {
     text-align: center;
   }
 }
@@ -194,7 +196,7 @@ header h2 {
   list-style: none;
 }
 .diapo ul li img {
-  width: 250px;
+  width: 300px;
 }
 
 @media screen and (min-width: 772px) {
@@ -293,61 +295,6 @@ footer {
     display: none;
   }
 }
-#profession {
-  margin-bottom: 40px;
-}
-#profession h2 {
-  margin-top: 25px;
-}
-#profession .job article {
-  margin-top: 15px;
-  border-bottom: 1px solid red;
-}
-#profession .job article h3 {
-  font-family: "Cabin", sans-serif;
-  font-size: 19px;
-  color: white;
-  text-align: center;
-}
-#profession .job article h5 {
-  font-family: "Cabin", sans-serif;
-  font-size: 18px;
-  color: white;
-  text-align: center;
-}
-#profession .job article p {
-  font-family: "Cabin", sans-serif;
-  font-size: 18px;
-  margin-bottom: 15px;
-  text-align: start;
-}
-#profession .job article h4 {
-  font-family: "Cabin", sans-serif;
-  font-size: 16px;
-  color: aqua;
-  margin-bottom: 15px;
-}
-#profession .job article h6 {
-  font-family: "Cabin", sans-serif;
-  font-size: 18px;
-  color: dodgerblue;
-  text-align: center;
-}
-
-@media screen and (min-width: 772px) {
-  .job article h3 {
-    font-size: 30px;
-  }
-  .job article h5 {
-    font-size: 25px;
-  }
-  .job article h4 {
-    font-size: 23px;
-  }
-  .job article p {
-    font-size: 22px;
-  }
-}
 .menu {
   margin-top: 25px;
   background: rgb(255, 0, 0);
@@ -358,6 +305,11 @@ footer {
   width: 55px;
 }
 
+@media screen and (min-width: 992px) {
+  .menu {
+    display: none;
+  }
+}
 .job {
   margin-left: 5px;
   margin-right: 5px;

@@ -29,10 +29,14 @@
 @media screen and (min-width:992px){
     .navigation{
         display:block;
+        padding-bottom:0px;
         nav{
             ul{
                 display:flex;
                 justify-content: space-around;
+               li{
+                padding-bottom:0px;
+               }
             }
             a:hover{
                 background-color:blue;

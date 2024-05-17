@@ -10,7 +10,7 @@
         }
     }
 }
-.reseau{
+#reseau{
     ul{
         display:flex; 
         flex-wrap: wrap;
@@ -53,7 +53,7 @@
             font-size:30px;
         }
     }
-    .reseau{
+    #reseau{
         ul{
             display:flex; 
             flex-wrap: wrap;
@@ -61,22 +61,19 @@
             font-family: "Cabin", sans-serif;
             li{
                 padding-top:20px;
-                img{
-                    width:140px;
-                }
             }
         }
     }
 }
 @media screen and (min-width:992px){
-    .reseau{
+    #reseau{
         ul{
             display:flex; 
             flex-wrap: wrap;
             justify-content: space-around;
             li{
                 img{
-                    width:100px;
+                    width:130px;
                 }
             }
         }
