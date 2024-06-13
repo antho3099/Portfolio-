@@ -22,12 +22,14 @@
     .diapo{
         margin-top:5px;
         margin-bottom: 5px;
-        margin-left:5px;
+        margin-left:10px;
         overflow-y:none;
         ul{
             li{
                 img{
                     width:190px;
+                    display:block;
+                    margin:auto;
                 }
             }
         }

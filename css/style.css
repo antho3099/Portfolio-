@@ -204,11 +204,13 @@ header h2 {
   .diapo {
     margin-top: 5px;
     margin-bottom: 5px;
-    margin-left: 5px;
+    margin-left: 10px;
     overflow-y: none;
   }
   .diapo ul li img {
     width: 190px;
+    display: block;
+    margin: auto;
   }
 }
 @media screen and (min-width: 992px) {
